@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="wrapper">
+    <header class="person container">
+        <img class="avatar" src="assets/photo/photo.jpg" alt="avatar">
+        <div class="info">
+            <span class="name">Сергей Примакович</span>
+            <span class="about">Привет, меня зовут Сергей. Я опытный фронтенд-разработчик стремящийся к созданию полностью функциональных веб-приложений.
+            Сфера веб-разработки постоянно развивается и моя страсть к передовым технологиям помогает мне успешно осваивать новые технологии и лучшие практики.</span>
+        </div>
+    </header>
+    <main class="projects">
+        <div class="projects-container container">
+            <a class="project" href="https://github.com/primapsa/t4frontend">
+                <div class="project__img-container">
+                    <img class="project__img" src="./assets/img/s1.png" alt="project image">
+                </div>
+                <div class="project__desc">
+                    <h3 class="project__title">Система продажи билетов на концерты</h3>
+                    <p class="project__outline">Представляет собой пользовательскую и администраторскую части.
+                        Администратор может создавать и редактировать концерты и промокоды к ним.
+                        Пользователь может просматривать и фильтровать концерты и покупать билеты онлайн. Добавлена
+                        авторизация через JWT токены, а также социальная авторизация через Google.
+                        Возможность покупки билетов через PayPal</p>
+                    <div class="project__stack">
+                        <div class="project__chip">React</div>
+                        <div class="project__chip">Redux</div>
+                        <div class="project__chip">Typescript</div>
+                        <div class="project__chip">Redux-Toolkit</div>
+                        <div class="project__chip">Axios</div>
+                        <div class="project__chip">Mantine</div>
+                        <div class="project__chip">Yup</div>
+                    </div>
+                </div>
+            </a>
+            <a class="project" href="https://github.com/primapsa/jobored">
+                <div class="project__img-container">
+                    <img class="project__img" src="./assets/img/s3.png" alt="project image">
+                </div>
+                <div class="project__desc">
+                    <h3 class="project__title">Система поиска работы JOBORED</h3>
+                    <p class="project__outline">Пользовательская часть для поиска актуальных вакансий. Пользователю
+                        доступна фильтрация вакансий по определенным критериям, просмотр интересующих вакансий и
+                        добаление их в избранное. В качестве бэкенда используется SuperJob API.</p>
+                    <div class="project__stack">
+                        <div class="project__chip">React</div>
+                        <div class="project__chip">Redux</div>
+                        <div class="project__chip">Typescript</div>
+                        <div class="project__chip">Thunk</div>
+                        <div class="project__chip">Mantine</div>
+                        <div class="project__chip">Reac-Router-Dom</div>
+                        <div class="project__chip">Axios</div>
+                    </div>
+                </div>
+            </a>
+            <a class="project" href="https://github.com/primapsa/ticket4u">
+                <div class="project__img-container">
+                    <img class="project__img" src="./assets/img/s2.png" alt="project image">
+                </div>
+                <div class="project__desc">
+                    <h3 class="project__title">Система продажи билетов на концерты</h3>
+                    <p class="project__outline">Бэкенд продажи билетов. Разработал API, используя Django REST Framework, позволяющий создавать, обновлять и получать информацию о концертах различных типов.
+                        Гибкая и расширяемая система, которая легко адаптируется к различным типам концертов, предоставляя удобные инструменты для управления</p>
+                    <div class="project__stack">
+                        <div class="project__chip">Python</div>
+                        <div class="project__chip">Django</div>
+                        <div class="project__chip">Django-rest-framework</div>
+                    </div>
+                </div>
+            </a>
+            <a class="project" href="https://github.com/primapsa/planner">
+                <div class="project__img-container">
+                    <img class="project__img" src="./assets/img/todo.png" alt="project image">
+                </div>
+                <div class="project__desc">
+                    <h3 class="project__title">Planner</h3>
+                    <p class="project__outline">Представляет собой простой планировщик задач. Пользователю доступно
+                        создание, редактирование и удаление списков и задач к ним. Существует фильтрация по активным и выполненным задачам.</p>
+                    <div class="project__stack">
+                        <div class="project__chip">React</div>
+                        <div class="project__chip">Redux</div>
+                        <div class="project__chip">Typescript</div>
+                        <div class="project__chip">Thunk</div>
+                        <div class="project__chip">MUI</div>
+                        <div class="project__chip">Axios</div>
+                    </div>
+                </div>
+            </a>
+            <a class="project"
+               href="https://github.com/primapsa/virtual-keyboard/tree/virtual-keyboard/virtual-keyboard">
+                <div class="project__img-container">
+                    <img class="project__img" src="./assets/img/keyboard.png" alt="project image">
+                </div>
+                <div class="project__desc">
+                    <h3 class="project__title">Virtual Keyboard</h3>
+                    <p class="project__outline">Этот проект - виртульная клавиатура, перехватывает как нажатия клавиш с
+                        физической клавиатуры так и позволяет печатать текст нажатием на соответствующую кнопку на клавиатуре мышью</p>
+                    <div class="project__stack">
+                        <div class="project__chip">Javascript</div>
+                        <div class="project__chip">HTML</div>
+                        <div class="project__chip">SCSS</div>
+                    </div>
+                </div>
+            </a>
+            <a class="project" href="https://github.com/primapsa/repair-design-project">
+                <div class="project__img-container">
+                    <img class="project__img" src="./assets/img/repair.png" alt="project image">
+                </div>
+                <div class="project__desc">
+                    <h3 class="project__title">Repair design project</h3>
+                    <p class="project__outline">Адаптивная верстка обьемного одностраничного сайта.</p>
+                    <div class="project__stack">
+                        <div class="project__chip">HTML</div>
+                        <div class="project__chip">SCSS</div>
+                    </div>
+                </div>
+            </a>
+            <a class="project" href="https://github.com/primapsa/hexal">
+                <div class="project__img-container">
+                    <img class="project__img" src="./assets/img/hexal.png" alt="project image">
+                </div>
+                <div class="project__desc">
+                    <h3 class="project__title">Hexal</h3>
+                    <p class="project__outline">Вертска одностраничного сайта</p>
+                    <div class="project__stack">
+                        <div class="project__chip">HTML</div>
+                        <div class="project__chip">CSS</div>
+                    </div>
+                </div>
+            </a>
+            <a class="project" href="https://github.com/primapsa/palette">
+                <div class="project__img-container">
+                    <img class="project__img" src="./assets/img/s4.png" alt="project image">
+                </div>
+                <div class="project__desc">
+                    <h3 class="project__title">Pallete</h3>
+                    <p class="project__outline">Pallete - это примитивный графический редактор, который позволяет
+                        применять на холсте инструменты карандаш, заливку и пипетку</p>
+                    <div class="project__stack">
+                        <div class="project__chip">Javascript</div>
+                        <div class="project__chip">HTML</div>
+                        <div class="project__chip">CSS</div>
+                    </div>
+                </div>
+            </a>
+            <a class="project" href="https://github.com/primapsa/theyalow">
+                <div class="project__img-container">
+                    <img class="project__img" src="./assets/img/allow.png" alt="project image">
+                </div>
+                <div class="project__desc">
+                    <h3 class="project__title">Theyalow</h3>
+                    <p class="project__outline">Адаптивная верстка одностраничного сайта</p>
+                    <div class="project__stack">
+                        <div class="project__chip">HTML</div>
+                        <div class="project__chip">CSS</div>
+                    </div>
+                </div>
+            </a>
+            <a class="project" href="https://github.com/primapsa/cssMemSlider/tree/gh-pages/cssMemSlider">
+                <div class="project__img-container">
+                    <img class="project__img" src="./assets/img/mem.png" alt="project image">
+                </div>
+                <div class="project__desc">
+                    <h3 class="project__title">cssMemSlider</h3>
+                    <p class="project__outline">cssMemSlider - это слайдер мемов, работающий без использования
+                        Javascript, только на чистом CSS</p>
+                    <div class="project__stack">
+                        <div class="project__chip">HTML</div>
+                        <div class="project__chip">CSS</div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </main>
+
+</div>
+</body>
+</html>
